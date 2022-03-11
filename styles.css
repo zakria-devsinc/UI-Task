@@ -219,7 +219,7 @@
 }
 
 /*----- Testimonials-- */
-.happy-custom {
+.happy-custom  {
   background-color: #f7f7f7;
 }
 .cust {
@@ -233,6 +233,9 @@
   .cust {
     width: 40%;
   }
+  .quotes{
+    margin-top: -2.2rem!important;
+  } 
 }
 @media (max-width: 991px) {
   .cust {
@@ -242,17 +245,32 @@
 }
 @media (max-width: 767px) {
   .cust {
-    width: 30%;
+    width: 23%;
     height: 140px;
   }
   .cro-1 {
     display: none;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 602px) {
+  .cust {
+    width: 25%;
+    height: 120px;
+  }
+}
+@media (max-width: 502px) {
   .cust {
     width: 30%;
     height: 120px;
+  }
+  .quotes{
+    margin-top: -1.5rem !important;
+  }
+}
+@media (max-width: 450px) {
+  .cust {
+    width: 30%;
+    height: 100px;
   }
 }
 @media (max-width: 400px) {
